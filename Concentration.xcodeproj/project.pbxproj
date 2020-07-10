@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F253C43E24AE2A1E00CF2A6E /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F253C43D24AE2A1E00CF2A6E /* Concentration.swift */; };
+		F253C44024AE2B1600CF2A6E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F253C43F24AE2B1600CF2A6E /* Card.swift */; };
 		F2708FD724A8B3010054E60A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2708FD624A8B3010054E60A /* AppDelegate.swift */; };
 		F2708FD924A8B3010054E60A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2708FD824A8B3010054E60A /* SceneDelegate.swift */; };
-		F2708FDB24A8B3010054E60A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2708FDA24A8B3010054E60A /* ViewController.swift */; };
+		F2708FDB24A8B3010054E60A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2708FDA24A8B3010054E60A /* GameViewController.swift */; };
 		F2708FDE24A8B3010054E60A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2708FDC24A8B3010054E60A /* Main.storyboard */; };
 		F2708FE024A8B3040054E60A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2708FDF24A8B3040054E60A /* Assets.xcassets */; };
 		F2708FE324A8B3040054E60A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2708FE124A8B3040054E60A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F253C43D24AE2A1E00CF2A6E /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = SOURCE_ROOT; };
+		F253C43F24AE2B1600CF2A6E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		F2708FD324A8B3010054E60A /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2708FD624A8B3010054E60A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2708FD824A8B3010054E60A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2708FDA24A8B3010054E60A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2708FDA24A8B3010054E60A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F2708FDD24A8B3010054E60A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2708FDF24A8B3040054E60A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2708FE224A8B3040054E60A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				F2708FEA24A8B8430054E60A /* Supporting Files */,
 				F2708FD824A8B3010054E60A /* SceneDelegate.swift */,
-				F2708FDA24A8B3010054E60A /* ViewController.swift */,
+				F2708FDA24A8B3010054E60A /* GameViewController.swift */,
+				F253C43D24AE2A1E00CF2A6E /* Concentration.swift */,
+				F253C43F24AE2B1600CF2A6E /* Card.swift */,
 				F2708FDC24A8B3010054E60A /* Main.storyboard */,
 				F2708FE424A8B3040054E60A /* Info.plist */,
 			);
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2708FDB24A8B3010054E60A /* ViewController.swift in Sources */,
+				F2708FDB24A8B3010054E60A /* GameViewController.swift in Sources */,
+				F253C43E24AE2A1E00CF2A6E /* Concentration.swift in Sources */,
+				F253C44024AE2B1600CF2A6E /* Card.swift in Sources */,
 				F2708FD724A8B3010054E60A /* AppDelegate.swift in Sources */,
 				F2708FD924A8B3010054E60A /* SceneDelegate.swift in Sources */,
 			);
